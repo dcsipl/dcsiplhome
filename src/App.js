@@ -24,7 +24,7 @@ function App() {
       <Work/>
       <Getintouch />
       <Footer />
-      <Rolling/>
+      {/* <Rolling/> */}
 
     </div>
   );
