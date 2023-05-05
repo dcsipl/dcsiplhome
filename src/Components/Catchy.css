@@ -1,0 +1,108 @@
+/* .catchy-container {
+    background-image: linear-gradient(to right,white,skyblue);
+    padding-top: 150px;
+    height: 700px;
+
+}
+.catchy-container h1{
+    color: rgb(20, 31, 112);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 170px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+.catchy-container {
+    padding-top: 150px;
+    padding-bottom: 80px;
+background-color: rgb(255, 252, 252);
+
+}
+
+.catchy-container .out {
+    height: 450px;
+    width: 500px;
+    margin-top: -250px;
+}
+.catchy-container .in {
+    height: 140px;
+    width: 110px;
+    margin-top: -290px;
+}
+
+
+.catchy-container .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px 100px;
+
+}
+
+.catchy-container .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.catchy-container .left h1 {
+    font-size: 68px;
+    color:  #0000A0;
+    padding: 30px;
+    font-family: gilroyBold;
+    Letter-spacing: -1px
+
+
+}
+
+.catchy-container .left h3 {
+    font-size: 44px;
+    color: #0B3558;
+    font-weight: 700;
+    padding: 10px 20px;
+    font-family: gilroyMedium;
+    Letter-spacing: -1px;
+    line-height: 58px;
+}
+.catchy-container .left h3 span{
+
+    color:#0000A0;
+
+
+}
+
+
+.catchy-container .left p {
+    width: 520px;
+    font-size: 20px;
+    padding: 0px 20px;
+    color: #476788;
+    font-family: gilroyRegular;
+    Letter-spacing: 1px;
+    Line-height: 32px
+}
+
+.catchy-container .left .btn {
+    width: 172px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    background: #056EE9;
+    color: white;
+    margin-left: 20px;
+    padding: 10px 30px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+.catchy-container .left .btn:hover {
+    width: 172px;
+    background: white;
+    color: #056EE9;
+    margin-left: 20px;
+    border: 2px solid #056EE9;
+    font-weight: 800;
+
+}

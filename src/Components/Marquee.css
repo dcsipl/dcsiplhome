@@ -1,0 +1,21 @@
+.marquee-container{
+    background-color:#F7FAFF;
+    padding-top: 50px;
+
+}
+.marquee-container h1{
+    display: flex;
+    justify-content: center;
+    font-family: gilroyBold;
+    font-size: 38px;
+    color: #0000A0;
+    padding-bottom:50px;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+.marquee-container img{
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+
+}

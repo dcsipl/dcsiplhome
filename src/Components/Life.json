@@ -1,0 +1,18 @@
+{
+  "Life": [
+    {
+      "name": "Recognition, Appreciation and Token of Gratitude.",
+      "mainDescr": "We recognize every individual for their constant effort to elevate our start-up to the next level through perks, and hikes and also we send personal gifts on any special occasion to their doorsteps. (images of new year cakes and sweets)",
+      "sliderImg": "../life1.png"
+    },
+    {
+      "name": "Diamatics fosters a glad and Open culture where every individual is respected and cared for. ",
+      "mainDescr": "We truly believe in life beyond work and our diverse, global workforce is empowered through flexible working hours, optional holiday benefits, perks and employee assistance programs.",
+      "sliderImg": "../life2.png"
+    },
+    {
+      "name": "All of us don’t have Equal Talents,Yet all of us have a Equal Opportunity to Develop our Talents- Ratan TATA",
+      "mainDescr": "We recognize the talents of our employees and we encourage them to develop more through our monthly newsletters and regular MS Teams meetup. (add screenshots of Town hall meeting) We also believe that having fun at work actually impacts key business objectives like employee engagement, productivity, and even resilience.",      "sliderImg": "../life3.png"
+    }
+  ]
+}
