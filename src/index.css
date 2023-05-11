@@ -1,3 +1,6 @@
+body{
+  text-transform: capitalize;
+}
 @font-face {
   font-family: gilroyBold;
   src: url(Gilroy-Bold.ttf);

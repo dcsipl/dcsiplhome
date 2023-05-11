@@ -10,16 +10,18 @@ import Why from './Components/Why';
 import Work from './Components/Work';
 import Life from './Components/Life@dcs';
 import Rolling from './Components/rolling';
+import Coe from './Components/Coe';
 
 function App() {
   return (
     <div>
       <Navbar />
       <Catchy />
-      <Marquee />
       <About />
+      <Coe/>
       <Services />
       <Why/>
+      <Marquee />
       <Life/>
       <Work/>
       <Getintouch />

@@ -44,15 +44,18 @@ export default function Getintouch() {
   }, [datas]);
   return (
     <>
+    <div className="bg"></div>
       <div
-        className="row contact-container"
+        className="contact-container"
         style={{ padding: "0px 200px" }}
         id="contact"
       >
-        <h1>Contact Us</h1>
+                <h1>Contact Us</h1>
+
+        <div className="row">
         <div className="left col-lg-6 col-md-6 col-12">
           <div className="contact-card">
-            <h3>Contact Information</h3>
+            <h3 className="co_info">Contact Information</h3>
             <div>
               <div className="icon">
                 <ImLocation2 />
@@ -158,7 +161,11 @@ export default function Getintouch() {
             </form>
           </Box>
         </div>
-        <div className="icons">
+        </div>
+        
+
+      </div>
+      <div className="icons" >
           <div className="icon">
             <FaFacebookSquare size="40" />
           </div>
@@ -169,7 +176,6 @@ export default function Getintouch() {
             <GrInstagram size="40" />
           </div>
         </div>
-      </div>
     </>
   );
 }

@@ -93,7 +93,11 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
+              icon={ <img src="../s2.png"/>}
+
             />
+                       
+
             <Tab
               label="Technical Helpdesk"
               {...a11yProps(1)}
@@ -107,6 +111,7 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
+              icon={ <img src="../s1.png"/>}
             />
             <Tab
               label="Billing Operations"
@@ -121,11 +126,13 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
+              icon={ <img src="../s3.png"/>}
+
             />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          <div className="row" style={{ padding: "0px 200px" }}>
+          <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
               <h3>
                 <RiCheckboxBlankFill
@@ -134,7 +141,7 @@ export default function Services() {
                 Heading1
               </h3>
               <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
+              We Are A Global, One-stop offering Complete IT Solutions. Over
                 The Past 5 Years, We Have Built Relationships With
                 Market-Leading Companies Around USA{" "}
               </p>
@@ -162,12 +169,12 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../service4.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid" />
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <div className="row" style={{ padding: "0px 200px" }}>
+          <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
               <h3>
                 <RiCheckboxBlankFill
@@ -204,12 +211,12 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../service1.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid" />
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <div className="row" style={{ padding: "0px 200px" }}>
+          <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
               <h3>
                 <RiCheckboxBlankFill
@@ -246,12 +253,12 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../service2.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid" />
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={3}>
-          <div className="row" style={{ padding: "0px 200px" }}>
+          <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
               <h3>
                 <RiCheckboxBlankFill
@@ -288,12 +295,12 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../service9.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid" />
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={4}>
-          <div className="row" style={{ padding: "0px 200px" }}>
+          <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
               <h3>
                 <RiCheckboxBlankFill
@@ -330,7 +337,7 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../service1.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid" />
             </div>
           </div>
         </TabPanel>
@@ -360,6 +367,8 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
+              icon={ <img src="../s1.png"/>}
+
             />
             <Tab
               label="Product Lifecycle Services"
@@ -374,6 +383,8 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
+              icon={ <img src="../s2.png"/>}
+
             />
             <Tab
               label="Ticket Management"
@@ -388,11 +399,13 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
+              icon={ <img src="../s5.png"/>}
+
             />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          <div className="row" style={{ padding: "0px 200px" }}>
+          <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
               <h3>
                 <RiCheckboxBlankFill
@@ -429,12 +442,12 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../service7.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid" />
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <div className="row" style={{ padding: "0px 200px" }}>
+          <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
               <h3>
                 <RiCheckboxBlankFill
@@ -471,12 +484,12 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../service6.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid" />
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <div className="row" style={{ padding: "0px 200px" }}>
+          <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
               <h3>
                 <RiCheckboxBlankFill
@@ -513,7 +526,7 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../service3.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid" />
             </div>
           </div>
         </TabPanel>
@@ -543,6 +556,8 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
+              icon={ <img src="../s2.png"/>}
+
             />
             <Tab
               label="Functional & Non-Functional Testing"
@@ -557,6 +572,8 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
+              icon={ <img src="../s1.png"/>}
+
             />
             <Tab
               label="Customer Care"
@@ -571,11 +588,14 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
+              
+              icon={ <img src="../s4.png"/>}
+
             />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          <div className="row" style={{ padding: "0px 200px" }}>
+          <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
               <h3>
                 <RiCheckboxBlankFill
@@ -612,12 +632,12 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../service8.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid" />
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <div className="row" style={{ padding: "0px 200px" }}>
+          <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
               <h3>
                 <RiCheckboxBlankFill
@@ -654,12 +674,12 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../service10.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid" />
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <div className="row" style={{ padding: "0px 200px" }}>
+          <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
               <h3>
                 <RiCheckboxBlankFill
@@ -696,7 +716,7 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../service5.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid" />
             </div>
           </div>
         </TabPanel>
