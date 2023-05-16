@@ -12,17 +12,18 @@ margin-right: 50px;
 }
 
 
-.row p{
+.service-container .row p{
     font-family: gilroyMedium;
 color: #425466;
 font-weight: 500;
-/* text-transform: camelcase; */
-margin-bottom: 40px;
+margin-top: 15px;
+margin-bottom: 50px;
 margin-right: 50px;
 margin-left: 20px;
 text-align: justify;
 font-size: 18px;
 line-height: 24px;
+text-indent:-28px;
 letter-spacing: 1px;
 
 }
@@ -45,8 +46,9 @@ padding-bottom: 80px;
 }
 .service-container {
     position: relative;
-    height: 900px;
+    height: 1050px;
     overflow: hidden;
+    margin-top: -70px;
     background-color:#F7FAFF;
 
   }

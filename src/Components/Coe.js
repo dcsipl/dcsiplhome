@@ -4,12 +4,12 @@ export default function Coe() {
     return (
       <>
              
-
+<h1 className='coe_title'>Center Of Excellence</h1>
               <div className='coe_container'>
                      <div className="image-container">
                      <img style={{height:"825px",width:"986px",display:"flex",justifyContent:"center",alignItems:"center",margin:"50px 230px"}}src="../COE.png" alt="Image 2" />
 
-                     <img style={{height:"550px",width:"556px",display:"flex",justifyContent:"center",alignItems:"center",marginTop:"-650px",marginBottom:"100px",marginLeft:"490px"
+                     <img style={{height:"550px",width:"556px",display:"flex",justifyContent:"center",alignItems:"center",marginTop:"-650px",marginBottom:"100px",marginLeft:"465px"
                         
                                 }}src="../D_logo.png" alt="Image 2" />
       

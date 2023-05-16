@@ -85,6 +85,7 @@ margin-top: -750px;
     border: none;
     border-bottom: 2px solid gray;
     background-color: transparent;
+    width: 200px;
   }
   .contact-container .right .form-container .row{
     padding:0px 10px;

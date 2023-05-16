@@ -45,11 +45,14 @@ export default function Life() {
                   index === sliderImgIndex ? "sliderimages" : "sliderimagesnone"
                 }
               >
+                <div className="img_container">
                 <img
                   className="sliderimg"
                   src={data.sliderImg}
                   alt={data.name}
                 />
+                </div>
+                
 
                 <div className="arrowcontainer">
                   <div onClick={Prev}>

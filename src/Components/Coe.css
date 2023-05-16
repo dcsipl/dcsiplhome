@@ -65,3 +65,13 @@
     transform: rotate(360deg);
   }
 }
+.coe_title{
+  display: flex;
+  justify-content: center;
+  font-family: gilroyBold;
+  font-size: 50px;
+  padding-top: 80px;
+padding-bottom: 80px;
+  color:#0000A0;
+  line-height: 32px;
+}

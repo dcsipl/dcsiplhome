@@ -8,7 +8,7 @@
   font-family: gilroyBold;
   font-size: 50px;
   color:#0000A0;
-  margin-top:20px;
+  margin-top:80px;
   margin-bottom: 100px;
 
 }
@@ -24,11 +24,21 @@
   left: 690px;
   transition: none;
 }
-.sliderimg{
+.img_container {
   width: 598px; 
   height: 489px;
-  margin: 0px 40px;  
-  
+  border: 1px solid gray;
+  margin: 20px 40px;
+}
+
+.img_container .sliderimg {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* width: 100%;
+  height: 100%;
+  object-fit: auto; */
 }
 .sliderimagesnone{
  display: none;

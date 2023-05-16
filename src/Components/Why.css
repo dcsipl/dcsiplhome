@@ -33,14 +33,16 @@ letter-spacing: 1px;
    .why-container .description p{
     /* padding: 5px; */
     line-height: 30px;
+    padding: 20px 0px;
     font-size: 18px;
+    text-indent: 10px;
     /* text-transform: none; */
     letter-spacing: 1px;
 
    }
    .why-container .vertical-line {
     border-left: 5px solid #056EE9;
-    height: 750px; /* adjust height as needed */
+    height: 718px; /* adjust height as needed */
     margin-right: 70px;
     margin-top: -40px;
     border-radius: 2px;
@@ -48,7 +50,6 @@ letter-spacing: 1px;
   }
   .why-container{
     padding:100px 200px;
-    background-color:#F7FAFF;
   }
   .why-container h1{
     display: flex;

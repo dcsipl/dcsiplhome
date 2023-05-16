@@ -10,12 +10,13 @@ export default function About() {
     <>
     <div className='about-container' id="about">
         <h1>About DCSIPL</h1>
-        <p className='p1'>We are a global, <b>one-stop-shop offering complete IT solutions</b> for all your business needs cost effectively. 
-            Presently, Diamatics is<br></br>the confluence of PAN Indian IT and non-IT squads led by the Specialists 
-            and budding engineers. Our wide range of solutions make<br></br>data-driven companies more agile and 
-            productive while minimizing business risks.</p>
-        <p className='p2'>Over the past <b>5 years</b>, we have built relationships with market-leading companies around the USA.</p>
-    </div>
+        <p className='p1'>
+        Diamatics Consulting Services is an Information Technology company that provides technical solutions to its partners.
+         We provide digital transformation strategies for your business through our full-fledged IT system. 
+         Diamatics is known to facilitate and simplify IT services for data driven organizations with the help of our enthusiastic and energetic team. 
+        </p>
+        <p className='p2'>Our passion is to help make companies more agile and productive while minimizing business risks. </p>
+
     <div className='card-container row'>
     <Card className="col-lg-6 col-sm-12 left cards">
       <CardMedia
@@ -85,7 +86,7 @@ export default function About() {
       </CardContent>
     </Card>
     </div>
-
+    </div>
 </>
     )
 }

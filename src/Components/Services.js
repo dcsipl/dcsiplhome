@@ -134,38 +134,30 @@ export default function Services() {
         <TabPanel value={value} index={0}>
           <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
-              <h3>
+            <p>
                 <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading1
-              </h3>
-              <p>
-              We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+                We help our clients to develop and maintain their product applications as well as ensure high performance and a user experience that meets their expectations.  {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading2
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                We know how to design, transform, migrate and operate your datacentre, with the key focus on availability and reliability. {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading3
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                With our SLA based Managed Service we keep your data centre up and running, benefiting from over a decade of experience and technical knowhow in managing different server OS platforms, web services and portals, databases, messaging, storage and backup systems. {" "}
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
@@ -176,38 +168,32 @@ export default function Services() {
         <TabPanel value={value} index={1}>
           <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title1
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                Our technical support team consists of engineers who are enriched with current IT trends and in-depth knowledge of software and hardware along cloud computing technologies.{" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title2
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                Whenever our customers raise tickets related to IT, hardware, and software issues{" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title3
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                we handle with best industry solutions and ensure 100% full proof resolution to technical issues.{" "}
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
@@ -218,38 +204,32 @@ export default function Services() {
         <TabPanel value={value} index={2}>
           <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading1
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                As technologies such as the Internet of Things (IoT), artificial intelligence (AI), machine-to-machine (M2M) communication, cybersecurity, and the management of big data among others continue to gain a foothold, there’s an evolution within the IT services sector.{" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading2
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+               Providers need to differentiate themselves through their offerings and pricing tactics. {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading3
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                Here with our highly qualified CoE team we can help you with this operation {" "}
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
@@ -260,39 +240,35 @@ export default function Services() {
         <TabPanel value={value} index={3}>
           <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title1
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                Countless organisations can now mitigate the rising costs of IT services across the world. With outsourced software development, companies can boost their abilities with ease and flexibility. Slash your hiring costs with scalable expert IT solutions. {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title2
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+                Communication is central to ensuring team’s effectiveness. That’s why, with close geographical proximity, nearshoring teams operate in time zones near you. And with good cultural affinity, companies can expect no linguistic barriers between head office, and their IT teams. {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title3
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
-              </p>
+                
+                IT project outsourcing is an increasingly viable investment for many companies seeking cost-effective enhancements to their team efforts. Outsourced teams bring rich expertise with internationally recognised qualifications and are specialised to champion any IT project.              </p>
+              
+             
+                            <p>  <RiCheckboxBlankFill
+                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
+                />{" "}
+                
+                Economical, and easily accessible, these squads of professionals consistently provide crucial ability and support. 
+                With these teams located nearby, expect a complete understanding between one another. 
+                With IT teams, your projects are in safe hands.               
+                </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
               <img src="../services.png" alt="logo" className="img-fluid" />
@@ -302,35 +278,35 @@ export default function Services() {
         <TabPanel value={value} index={4}>
           <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading1
-              </h3>
-              <p>
+                
+             
+
                 We Are A Global, One-stop offering Complete IT Solutions. Over
                 The Past 5 Years, We Have Built Relationships With
                 Market-Leading Companies Around USA{" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading2
-              </h3>
-              <p>
+                
+             
+
                 We Are A Global, One-stop offering Complete IT Solutions. Over
                 The Past 5 Years, We Have Built Relationships With
                 Market-Leading Companies Around USA{" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading3
-              </h3>
-              <p>
+                
+             
+
                 We Are A Global, One-stop offering Complete IT Solutions. Over
                 The Past 5 Years, We Have Built Relationships With
                 Market-Leading Companies Around USA{" "}
@@ -407,38 +383,39 @@ export default function Services() {
         <TabPanel value={value} index={0}>
           <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading1
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                Diamatics provides a wide range of bug fixing and bug maintenance services to ensure that the delivered website or application runs smoothly and in full accordance with the clients' requirements. We have a dedicated Testing CoE team who provide services which include  {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading2
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                Bug Fixing and Enhancements  {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading3
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                Code and speed Optimization {" "}
+              </p>
+              <p>  <RiCheckboxBlankFill
+                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
+                />{" "}
+                
+             
+                Security Maintenance  {" "}
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
@@ -449,38 +426,32 @@ export default function Services() {
         <TabPanel value={value} index={1}>
           <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title1
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                We help you eliminate Bottlenecks and Assist Rapid Deployment by manging complex, cross-functional processes, by integrating people, processes and systems through coordination of the efforts of distributed teams and efficiently develop the best possible products; creating great products demand focus and the right technology.  {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title2
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                As an enterprise, strategy Product lifecycle management should be integrated along with the information driven approach to all aspects of a product’s life.{" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title3
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                To succeed you need to optimize the product development processes that will deliver on your strategic goals. Our Experienced Staff provide recommendations to eliminate the Bottlenecks and assist Rapid Deployment.{" "}
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
@@ -491,38 +462,32 @@ export default function Services() {
         <TabPanel value={value} index={2}>
           <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading1
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                We help bring customer communications from different channels to one interface. This reduces the amount of time your agents spend switching between tabs and brings all customer data to one place.{" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading2
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                Ticket management refers to the process help desks use to collect requests and track ticket lifecycle from creation to resolution. The ticket management process, whether automated or manual, starts with a service request.{" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading3
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                We utilize advance software to ensure that we have a solid and effective method of raising and managing tickets. This helps us allocate tasks to our various teams and track progress to ensure deliverability to our clients.  {" "}
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
@@ -597,39 +562,37 @@ export default function Services() {
         <TabPanel value={value} index={0}>
           <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
-              <h3>
-                <RiCheckboxBlankFill
+             
+            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading1
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                Countless organisations can now mitigate the rising costs of IT services across the world. With outsourced software development, companies can boost their abilities with ease and flexibility. Slash your hiring costs with scalable expert IT solutions. {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading2
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+                Communication is central to ensuring team’s effectiveness. That’s why, with close geographical proximity, nearshoring teams operate in time zones near you. And with good cultural affinity, companies can expect no linguistic barriers between head office, and their IT teams. {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading3
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
-              </p>
+                
+                IT project outsourcing is an increasingly viable investment for many companies seeking cost-effective enhancements to their team efforts. Outsourced teams bring rich expertise with internationally recognised qualifications and are specialised to champion any IT project.              </p>
+              
+             
+                            <p>  <RiCheckboxBlankFill
+                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
+                />{" "}
+                
+                Economical, and easily accessible, these squads of professionals consistently provide crucial ability and support. 
+                With these teams located nearby, expect a complete understanding between one another. 
+                With IT teams, your projects are in safe hands.               
+                </p>
+                
+             
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
               <img src="../services.png" alt="logo" className="img-fluid" />
@@ -639,38 +602,32 @@ export default function Services() {
         <TabPanel value={value} index={1}>
           <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title1
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                In this fast-paced world of technology development, software companies are striving not only for a bug-free product but also for an excellent performing product. This way we want to ensure the two aspects which are Quality and Performance. {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title2
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                Through functional testing we ensure the proper working of all the functionalities of an application. All the requirements are met using Requirement traceability matrix to deliver a defect-free product. {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Title3
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                Through non-functional testing we ensure using the parameters like Security, Usability, Scalability, Interoperability, Efficiency, and Flexibility of any kind of applications{" "}
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
@@ -681,39 +638,40 @@ export default function Services() {
         <TabPanel value={value} index={2}>
           <div className="row" style={{ padding: "0px 30px" }}>
             <div className="left col-lg-6 col-md-6 col-12">
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading1
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                Our IT services provide value to the customer and we help them accomplish a specific objective. However, unlike other business services, there is one key element that differentiates customer service in IT services—alignment.{" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading2
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                And this is because, IT service companies typically view the service in terms of applications and infrastructure. Thus, for an IT company to service its customers well there must be a clear alignment from both parties on the goals and the exact nature of the services provided. {" "}
               </p>
-              <h3>
-                <RiCheckboxBlankFill
+             
+                            <p>  <RiCheckboxBlankFill
                   style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
                 />{" "}
-                Heading3
-              </h3>
-              <p>
-                We Are A Global, One-stop offering Complete IT Solutions. Over
-                The Past 5 Years, We Have Built Relationships With
-                Market-Leading Companies Around USA{" "}
+                
+             
+
+                Businesses are not keen on understanding APIs, code, or other technical components. They want to understand relevant data better to increase their customer satisfaction.{" "}
               </p>
+              <p>  <RiCheckboxBlankFill
+                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
+                />{" "}
+                
+             
+
+                By realizing this value, both of us work together to recognize their IT implementation goals and minimize their problems. This is co-creation. This is the strategy we follow to ensure customer services              </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
               <img src="../services.png" alt="logo" className="img-fluid" />

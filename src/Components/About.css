@@ -1,6 +1,8 @@
 
 .about-container{
     padding-top: 110px;
+    background-color:#F7FAFF;
+    padding-bottom: 100px;
 
 }
 .about-container h1{
@@ -39,6 +41,7 @@ font-weight: 100;
     padding: 0px 160px;
     display: flex;
     justify-content: space-between;
+
 }
 .card-container .cards{
 width: 492px;
