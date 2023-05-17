@@ -9,7 +9,7 @@
   font-size: 50px;
   color:#0000A0;
   margin-top:80px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 
 }
 
@@ -28,7 +28,7 @@
   width: 598px; 
   height: 489px;
   border: 1px solid gray;
-  margin: 20px 40px;
+  margin: 80px 40px;
 }
 
 .img_container .sliderimg {
@@ -60,7 +60,7 @@
   justify-content: space-between;
   display: flex;
   flex-direction: column;
-  top: -30px;
+  top: 30px;
   left: -370px;
   height: 600px;
 
@@ -74,7 +74,7 @@
 .communame{
 width:460px;
 position:absolute;
-top:75px;
+top:125px;
 left:-545px;
 font-family: gilroyRegular;
 line-height: 40px;
@@ -89,7 +89,7 @@ font-weight: 600;
   width: 460px;
   height: 300px;
   left: -545px;
-  top: 250px;
+  top: 310px;
 color: #425466;
  font-family: gilroyMedium;
  font-size: 18px;

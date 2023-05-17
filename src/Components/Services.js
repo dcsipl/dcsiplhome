@@ -5,6 +5,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import "./Services.css";
 import { RiCheckboxBlankFill } from "react-icons/ri";
+import { BsFillCheckCircleFill } from "react-icons/bs";
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -73,6 +74,10 @@ export default function Services() {
         className={`slider-item ${activeIndex === 0 ? "active" : ""}`}
       >
         <h1 className="service-title">Our Services</h1>
+        <div class="section-title">
+      <div class="bar">
+        </div>
+        </div>
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs
             value={value}
@@ -85,7 +90,7 @@ export default function Services() {
               {...a11yProps(0)}
               sx={{
                 fontFamily: "gilroyRegular",
-                color: "#056EE9",
+                color: "#476788",
                 "&.Mui-selected": { color: "#0000A0" },
                 fontWeight: 800,
                 flex: "1 1 0",
@@ -93,7 +98,7 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
-              icon={ <img src="../s2.png"/>}
+              icon={ <img src="../s1.svg" style={{height:"40px",width:"40px",marginBottom:"20px",marginTop:"50px"}}/>}
 
             />
                        
@@ -103,7 +108,7 @@ export default function Services() {
               {...a11yProps(1)}
               sx={{
                 fontFamily: "gilroyRegular",
-                color: "#056EE9",
+                color: "#476788",
                 "&.Mui-selected": { color: "#0000A0" },
                 fontWeight: 800,
                 flex: "1 1 0",
@@ -111,14 +116,14 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
-              icon={ <img src="../s1.png"/>}
+              icon={<img src="../s2.svg" style={{height:"40px",width:"40px",marginBottom:"20px",marginTop:"50px"}}/>}
             />
             <Tab
               label="Billing Operations"
               {...a11yProps(2)}
               sx={{
                 fontFamily: "gilroyRegular",
-                color: "#056EE9",
+                color: "#476788",
                 "&.Mui-selected": { color: "#0000A0" },
                 fontWeight: 800,
                 flex: "1 1 0",
@@ -126,34 +131,31 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
-              icon={ <img src="../s3.png"/>}
+              icon={ <img src="../s3.svg" style={{height:"40px",width:"40px",marginBottom:"20px",marginTop:"50px"}}/>}
 
             />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          <div className="row" style={{ padding: "0px 30px" }}>
+          <div className="row" >
             <div className="left col-lg-6 col-md-6 col-12">
             <p>
-                <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
                 
                 We help our clients to develop and maintain their product applications as well as ensure high performance and a user experience that meets their expectations.  {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
                 
              
 
                 We know how to design, transform, migrate and operate your datacentre, with the key focus on availability and reliability. {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>                
+                                <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
@@ -161,35 +163,35 @@ export default function Services() {
               </p>
             </div>
             <div className="right col-lg-6 col-md-6 col-12">
-              <img src="../services.png" alt="logo" className="img-fluid" />
+              <img src="../services.png" alt="logo" className="img-fluid"style={{width:"500px"}} />
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <div className="row" style={{ padding: "0px 30px" }}>
+          <div className="row" >
             <div className="left col-lg-6 col-md-6 col-12">
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 Our technical support team consists of engineers who are enriched with current IT trends and in-depth knowledge of software and hardware along cloud computing technologies.{" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 Whenever our customers raise tickets related to IT, hardware, and software issues{" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
@@ -202,30 +204,31 @@ export default function Services() {
           </div>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <div className="row" style={{ padding: "0px 30px" }}>
+          <div className="row" >
             <div className="left col-lg-6 col-md-6 col-12">
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 As technologies such as the Internet of Things (IoT), artificial intelligence (AI), machine-to-machine (M2M) communication, cybersecurity, and the management of big data among others continue to gain a foothold, there’s an evolution within the IT services sector.{" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>            
+                                    <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
+
                 
              
 
                Providers need to differentiate themselves through their offerings and pricing tactics. {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
@@ -238,32 +241,32 @@ export default function Services() {
           </div>
         </TabPanel>
         <TabPanel value={value} index={3}>
-          <div className="row" style={{ padding: "0px 30px" }}>
+          <div className="row" >
             <div className="left col-lg-6 col-md-6 col-12">
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 Countless organisations can now mitigate the rising costs of IT services across the world. With outsourced software development, companies can boost their abilities with ease and flexibility. Slash your hiring costs with scalable expert IT solutions. {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
                 Communication is central to ensuring team’s effectiveness. That’s why, with close geographical proximity, nearshoring teams operate in time zones near you. And with good cultural affinity, companies can expect no linguistic barriers between head office, and their IT teams. {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
                 IT project outsourcing is an increasingly viable investment for many companies seeking cost-effective enhancements to their team efforts. Outsourced teams bring rich expertise with internationally recognised qualifications and are specialised to champion any IT project.              </p>
               
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
                 Economical, and easily accessible, these squads of professionals consistently provide crucial ability and support. 
                 With these teams located nearby, expect a complete understanding between one another. 
@@ -276,12 +279,12 @@ export default function Services() {
           </div>
         </TabPanel>
         <TabPanel value={value} index={4}>
-          <div className="row" style={{ padding: "0px 30px" }}>
+          <div className="row" >
             <div className="left col-lg-6 col-md-6 col-12">
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
@@ -290,9 +293,9 @@ export default function Services() {
                 Market-Leading Companies Around USA{" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
@@ -301,9 +304,9 @@ export default function Services() {
                 Market-Leading Companies Around USA{" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
@@ -323,6 +326,10 @@ export default function Services() {
         className={`slider-item ${activeIndex === 1 ? "active" : ""}`}
       >
         <h1 className="service-title">Our Services</h1>
+        <div class="section-title">
+      <div class="bar">
+        </div>
+        </div>
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs
             value={value}
@@ -335,7 +342,7 @@ export default function Services() {
               {...a11yProps(0)}
               sx={{
                 fontFamily: "gilroyRegular",
-                color: "#056EE9",
+                color: "#476788",
                 "&.Mui-selected": { color: "#0000A0" },
                 fontWeight: 800,
                 flex: "1 1 0",
@@ -343,7 +350,7 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
-              icon={ <img src="../s1.png"/>}
+              icon={ <img src="../s4.svg" style={{height:"40px",width:"40px",marginBottom:"20px",marginTop:"50px"}}/>}
 
             />
             <Tab
@@ -351,7 +358,7 @@ export default function Services() {
               {...a11yProps(1)}
               sx={{
                 fontFamily: "gilroyRegular",
-                color: "#056EE9",
+                color: "#476788",
                 "&.Mui-selected": { color: "#0000A0" },
                 fontWeight: 800,
                 flex: "1 1 0",
@@ -359,7 +366,7 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
-              icon={ <img src="../s2.png"/>}
+              icon={ <img src="../s5.svg" style={{height:"40px",width:"40px",marginBottom:"20px",marginTop:"50px"}}/>}
 
             />
             <Tab
@@ -367,7 +374,7 @@ export default function Services() {
               {...a11yProps(2)}
               sx={{
                 fontFamily: "gilroyRegular",
-                color: "#056EE9",
+                color: "#476788",
                 "&.Mui-selected": { color: "#0000A0" },
                 fontWeight: 800,
                 flex: "1 1 0",
@@ -375,44 +382,43 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
-              icon={ <img src="../s5.png"/>}
+              icon={ <img src="../s6.svg" style={{height:"40px",width:"40px",marginBottom:"20px",marginTop:"50px"}}/>}
 
             />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          <div className="row" style={{ padding: "0px 30px" }}>
+          <div className="row" >
             <div className="left col-lg-6 col-md-6 col-12">
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p> 
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 Diamatics provides a wide range of bug fixing and bug maintenance services to ensure that the delivered website or application runs smoothly and in full accordance with the clients' requirements. We have a dedicated Testing CoE team who provide services which include  {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p> 
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 Bug Fixing and Enhancements  {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
-                
+                            <p> 
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
              
 
                 Code and speed Optimization {" "}
               </p>
-              <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+              <p>  
+              <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
                 Security Maintenance  {" "}
@@ -424,30 +430,30 @@ export default function Services() {
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <div className="row" style={{ padding: "0px 30px" }}>
+          <div className="row" >
             <div className="left col-lg-6 col-md-6 col-12">
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p> 
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 We help you eliminate Bottlenecks and Assist Rapid Deployment by manging complex, cross-functional processes, by integrating people, processes and systems through coordination of the efforts of distributed teams and efficiently develop the best possible products; creating great products demand focus and the right technology.  {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p> 
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 As an enterprise, strategy Product lifecycle management should be integrated along with the information driven approach to all aspects of a product’s life.{" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
@@ -460,30 +466,30 @@ export default function Services() {
           </div>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <div className="row" style={{ padding: "0px 30px" }}>
+          <div className="row" >
             <div className="left col-lg-6 col-md-6 col-12">
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 We help bring customer communications from different channels to one interface. This reduces the amount of time your agents spend switching between tabs and brings all customer data to one place.{" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 Ticket management refers to the process help desks use to collect requests and track ticket lifecycle from creation to resolution. The ticket management process, whether automated or manual, starts with a service request.{" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
@@ -501,6 +507,10 @@ export default function Services() {
         className={`slider-item ${activeIndex === 2 ? "active" : ""}`}
       >
         <h1 className="service-title">Our Services</h1>
+        <div class="section-title">
+      <div class="bar">
+        </div>
+        </div>
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs
             value={value}
@@ -513,7 +523,7 @@ export default function Services() {
               {...a11yProps(0)}
               sx={{
                 fontFamily: "gilroyRegular",
-                color: "#056EE9",
+                color: "#476788",
                 "&.Mui-selected": { color: "#0000A0" },
                 fontWeight: 800,
                 flex: "1 1 0",
@@ -521,7 +531,7 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
-              icon={ <img src="../s2.png"/>}
+              icon={ <img src="../s7.svg" style={{height:"40px",width:"40px",marginBottom:"20px",marginTop:"50px"}}/>}
 
             />
             <Tab
@@ -529,7 +539,7 @@ export default function Services() {
               {...a11yProps(1)}
               sx={{
                 fontFamily: "gilroyRegular",
-                color: "#056EE9",
+                color: "#476788",
                 "&.Mui-selected": { color: "#0000A0" },
                 fontWeight: 800,
                 flex: "1 1 0",
@@ -537,7 +547,7 @@ export default function Services() {
                 textTransform: "capitalize",
                 fontSize: "17px",
               }}
-              icon={ <img src="../s1.png"/>}
+              icon={ <img src="../s8.svg" style={{height:"40px",width:"40px",marginBottom:"20px",marginTop:"50px"}}/>}
 
             />
             <Tab
@@ -545,7 +555,7 @@ export default function Services() {
               {...a11yProps(2)}
               sx={{
                 fontFamily: "gilroyRegular",
-                color: "#056EE9",
+                color: "#476788",
                 "&.Mui-selected": { color: "#0000A0" },
                 fontWeight: 800,
                 flex: "1 1 0",
@@ -554,38 +564,38 @@ export default function Services() {
                 fontSize: "17px",
               }}
               
-              icon={ <img src="../s4.png"/>}
+              icon={ <img src="../s9.svg" style={{height:"40px",width:"40px",marginBottom:"20px",marginTop:"50px"}}/>}
 
             />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          <div className="row" style={{ padding: "0px 30px" }}>
+          <div className="row" >
             <div className="left col-lg-6 col-md-6 col-12">
              
-            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+            <p>  
+            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 Countless organisations can now mitigate the rising costs of IT services across the world. With outsourced software development, companies can boost their abilities with ease and flexibility. Slash your hiring costs with scalable expert IT solutions. {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p> 
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
                 Communication is central to ensuring team’s effectiveness. That’s why, with close geographical proximity, nearshoring teams operate in time zones near you. And with good cultural affinity, companies can expect no linguistic barriers between head office, and their IT teams. {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p> 
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
                 IT project outsourcing is an increasingly viable investment for many companies seeking cost-effective enhancements to their team efforts. Outsourced teams bring rich expertise with internationally recognised qualifications and are specialised to champion any IT project.              </p>
               
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
                 Economical, and easily accessible, these squads of professionals consistently provide crucial ability and support. 
                 With these teams located nearby, expect a complete understanding between one another. 
@@ -600,30 +610,30 @@ export default function Services() {
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <div className="row" style={{ padding: "0px 30px" }}>
+          <div className="row" >
             <div className="left col-lg-6 col-md-6 col-12">
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p> 
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 In this fast-paced world of technology development, software companies are striving not only for a bug-free product but also for an excellent performing product. This way we want to ensure the two aspects which are Quality and Performance. {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 Through functional testing we ensure the proper working of all the functionalities of an application. All the requirements are met using Requirement traceability matrix to deliver a defect-free product. {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
@@ -636,38 +646,39 @@ export default function Services() {
           </div>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <div className="row" style={{ padding: "0px 30px" }}>
+          <div className="row" >
             <div className="left col-lg-6 col-md-6 col-12">
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 Our IT services provide value to the customer and we help them accomplish a specific objective. However, unlike other business services, there is one key element that differentiates customer service in IT services—alignment.{" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                            <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 
                 And this is because, IT service companies typically view the service in terms of applications and infrastructure. Thus, for an IT company to service its customers well there must be a clear alignment from both parties on the goals and the exact nature of the services provided. {" "}
               </p>
              
-                            <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+                            <p>  
+                                              <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
+
                 
              
 
                 Businesses are not keen on understanding APIs, code, or other technical components. They want to understand relevant data better to increase their customer satisfaction.{" "}
               </p>
-              <p>  <RiCheckboxBlankFill
-                  style={{ backgroundColor: " #ECECEC", color: " #ECECEC" }}
-                />{" "}
+              <p>  
+              <BsFillCheckCircleFill size="18px" style={{ color:'#056EE9'}} />{" "}
+
                 
              
 

@@ -17,3 +17,77 @@ body{
   font-family: gilroyThin;
   src: url(Gilroy-Thin.ttf);
 }
+.section-title .bar {
+  background: #dbeaff;
+  border-radius: 30px;
+  height: 7px;
+  margin: 20px auto;
+  position: relative;
+  width: 150px;
+}
+
+.section-title .bar:before {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: MOVE-BG;
+  animation-timing-function: linear;
+  background:#056EE9 ;
+  border-radius: 50%;
+  content: "";
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: -2.7px;
+  width: 16px;
+}
+
+@keyframes MOVE-BG {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: calc(100% - 10px);
+  }
+}
+
+
+.btn {
+  padding: 10px 20px;
+  background-color: #056EE9;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.btn::before,
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #056EE9;
+  transition: width 0.9s;
+  z-index: -1;
+}
+
+.btn::before {
+  left: 0;
+}
+
+.btn::after {
+  right: 0;
+}
+
+.btn:hover::before,
+.btn:hover::after {
+  width: 50%;
+} 
+.btn:hover {
+  color: #fff;
+  border: 1px solid #056EE9;
+}

@@ -5,7 +5,10 @@ export default function Marquee() {
     <>
 <div class="logos">
 <h1 style={{display:"flex",justifyContent:"center",color:"#0000A0",marginBottom:"40px"}}>Trusted By</h1>
-
+<div class="section-title">
+      <div class="bar">
+        </div>
+        </div>
       <div class="logos-slide">
       <img style={{margin:"30px  60px",height:"100px",width:"400px"}} src="../marq0.png" lassName="img-fluid" />
           <img style={{margin:"30px  60px",height:"100px",width:"300px"}} src="../marq1.png" lassName="img-fluid" />

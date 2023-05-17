@@ -24,17 +24,6 @@ line-height: 32px;
 letter-spacing: 1px;
 font-weight: 100;
 }
-.about-container .p3{
-    font-family: gilroyRegular;
-    text-align: center;
-    margin:0px 100px;
-    margin-bottom: 70px;
-    color: #476788;
-    font-size: 18px;
-line-height: 32px;
-letter-spacing: 1px;
-font-weight: 100;
-}
 .about-container .p2{
     font-family: gilroyRegular;
     text-align: center;
@@ -55,14 +44,11 @@ font-weight: 100;
 
 }
 .card-container .cards{
-width: 1200px;
+width: 492px;
     margin:20px 0px;
-    margin-left: 10px;
     padding: 0px 20px;
-    padding-bottom: 100px;
-    padding-left: 30px;
     border: none;
-    height: 900px;
+    height: 770px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
 border-radius: 10px;}
 .card-container .cards:hover{
@@ -78,7 +64,6 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
     text-transform: capitalize;
     list-style: none;
     margin-bottom: 10px;
-    letter-spacing: 1px;
   }
    
   

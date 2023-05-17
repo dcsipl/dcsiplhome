@@ -35,6 +35,10 @@ export default function Life() {
       <h1 className="lifee" id="life">
         Life@DCS
       </h1>
+      <div class="section-title">
+      <div class="bar">
+        </div>
+        </div>
       {communityDetails.Life.map((data, index) => {
         return (
           <>

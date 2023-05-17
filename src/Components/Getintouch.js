@@ -51,7 +51,10 @@ export default function Getintouch() {
         id="contact"
       >
                 <h1>Contact Us</h1>
-
+                <div class="section-title">
+      <div class="bar">
+        </div>
+        </div>
         <div className="row">
         <div className="left col-lg-6 col-md-6 col-12">
           <div className="contact-card">
@@ -156,7 +159,7 @@ export default function Getintouch() {
                   </div>
                 </div>
 
-                <button onClick={addData}>Send message</button>
+                <button className="btn" onClick={addData}>Send message</button>
               </div>
             </form>
           </Box>

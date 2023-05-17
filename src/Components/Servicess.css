@@ -1,4 +1,4 @@
-.row{
+/* .row{
   margin-top: 50px;
 }.row h3{
     font-family: gilroyMedium;
@@ -18,10 +18,9 @@ color: #425466;
 font-weight: 500;
 margin-top: 15px;
 margin-bottom: 50px;
-margin-right: 50px;
-margin-left: 150px;
+margin-left: 110px;
 text-align: justify;
-font-size: 16px;
+font-size: 18px;
 line-height: 24px;
 text-indent:-28px;
 letter-spacing: 1px;
@@ -29,11 +28,9 @@ letter-spacing: 1px;
 }
 
 .row .right img{
- 
-  /* margin: 0px 50px; */
-  /* width: 609; */
-  height: 529px;
-  margin-left: 0px;
+ margin-left: 50px;
+  width: 750;
+  height: 429px;
 }
 .service-title{
     display: flex;
@@ -41,16 +38,16 @@ letter-spacing: 1px;
     font-family: gilroyBold;
     font-size: 50px;
     padding-top: 80px;
-padding-bottom: 25px;
+padding-bottom: 80px;
     color:#0000A0;
     line-height: 32px;
 }
 .service-container {
     position: relative;
-    height: 1150px;
+    height: 1200px;
     overflow: hidden;
     margin-top: -70px;
-    padding-bottom: -100px;
+    background-color:white;
 
   }
   
@@ -83,7 +80,7 @@ padding-bottom: 25px;
     position: absolute;
     width: 100%;
     display: flex;
-    margin-top: 260px;
+    margin-top: 230px;
     justify-content: space-between;
 
 
@@ -95,7 +92,6 @@ padding-bottom: 25px;
     border: none;
     padding: 10px 20px;
     margin: 0 10px;
-    margin-top: 50px;
     
     cursor: pointer;
     font-size: 1.2em;
@@ -104,4 +100,4 @@ padding-bottom: 25px;
   .slider-controls button:hover {
     background-color: #f1f1f1;
   }
-  
+   */
