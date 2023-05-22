@@ -4,7 +4,7 @@ export default function Marquee() {
   return (
     <>
 <div class="logos">
-<h1 style={{display:"flex",justifyContent:"center",color:"#0000A0",marginBottom:"40px"}}>Trusted By</h1>
+<h1 style={{display:"flex",justifyContent:"center",color:"#0000A0",marginBottom:"20px"}}>Trusted By</h1>
 <div class="section-title">
       <div class="bar">
         </div>

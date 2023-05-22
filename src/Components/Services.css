@@ -19,7 +19,7 @@ font-weight: 500;
 margin-top: 15px;
 margin-bottom: 50px;
 margin-right: 50px;
-margin-left: 150px;
+margin-left: 100px;
 text-align: justify;
 font-size: 16px;
 line-height: 24px;
@@ -47,10 +47,10 @@ padding-bottom: 25px;
 }
 .service-container {
     position: relative;
-    height: 1150px;
+    height: 1200px;
     overflow: hidden;
     margin-top: -70px;
-    padding-bottom: -100px;
+    padding-bottom: 100px;
 
   }
   
@@ -83,7 +83,7 @@ padding-bottom: 25px;
     position: absolute;
     width: 100%;
     display: flex;
-    margin-top: 260px;
+    margin-top: 330px;
     justify-content: space-between;
 
 
@@ -104,4 +104,5 @@ padding-bottom: 25px;
   .slider-controls button:hover {
     background-color: #f1f1f1;
   }
-  
+   
+ 

@@ -5,6 +5,7 @@ export default function Coe() {
       <>
              
 <h1 className='coe_title'>Center Of Excellence</h1>
+
 <div class="section-title">
       <div class="bar">
         </div>

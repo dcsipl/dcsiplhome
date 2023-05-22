@@ -33,7 +33,7 @@ export default function Life() {
   return (
     <>
       <h1 className="lifee" id="life">
-        Life@DCS
+        Life@Diamatics
       </h1>
       <div class="section-title">
       <div class="bar">

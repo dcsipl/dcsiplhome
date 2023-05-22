@@ -44,17 +44,18 @@ export default function Getintouch() {
   }, [datas]);
   return (
     <>
-    <div className="bg"></div>
-      <div
-        className="contact-container"
-        style={{ padding: "0px 200px" }}
-        id="contact"
-      >
-                <h1>Contact Us</h1>
+       <h1 id="contact">Contact Us</h1>
                 <div class="section-title">
       <div class="bar">
         </div>
         </div>
+    <div className="bg"></div>
+      <div
+        className="contact-container"
+        style={{ padding: "0px 200px" }}
+        
+      >
+             
         <div className="row">
         <div className="left col-lg-6 col-md-6 col-12">
           <div className="contact-card">

@@ -9,7 +9,8 @@ export default function About() {
   return ( 
     <>
     <div className='about-container' id="about">
-        <h1>About DCSIPL</h1>
+        <h1>About Diamatics</h1>
+        
         <div class="section-title">
       <div class="bar">
         </div>
@@ -24,7 +25,7 @@ export default function About() {
     <div className='card-container row'>
     <Card className="col-lg-6 col-sm-12 left cards">
       <CardMedia
-        sx={{ height: 314,width:471,marginLeft:"300px" }}
+        sx={{ height: 414,width:500,marginLeft:"300px" }}
         image="../strategy.png"
         title="green iguana"
       />

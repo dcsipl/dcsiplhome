@@ -91,3 +91,31 @@ body{
   color: #fff;
   border: 1px solid #056EE9;
 }
+
+
+/* .marquee-container {
+  width: 70px; 
+  overflow: hidden;
+}
+.marquee {
+  white-space: nowrap;
+  overflow: hidden; 
+  display: inline-block;
+  width: 70px; 
+  color: wheat;
+ 
+}
+
+.marquee:hover {
+  animation: marquee 5s linear infinite;
+  width: auto; ; 
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+} */

@@ -1,18 +1,14 @@
-/* .catchy-container {
-    background-image: linear-gradient(to right,white,skyblue);
-    padding-top: 150px;
-    height: 700px;
 
-}
 .catchy-container h1{
     color: rgb(20, 31, 112);
     font-size: 50px;
     display: flex;
+
+    margin-left: -190px;
     justify-content: center;
     align-items: center;
-    padding-top: 170px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-} */
+} 
 
 .catchy-container {
     padding-top: 120px;
@@ -55,7 +51,7 @@ background-color: rgb(255, 252, 252);
 .catchy-container .left h1 {
     font-size: 68px;
     color:  #0000A0;
-    padding: 20px;
+    padding-top: -20px;
     font-family: gilroyBold;
     Letter-spacing: -1px
 
