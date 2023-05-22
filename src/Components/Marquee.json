@@ -1,19 +1,16 @@
 {
     "marquee":[
+        {"src":"../marq0.png"},
         {"src":"../marq1.png"},
         {"src":"../marq2.png"},
+        {"src":"../marq11.jpeg"},
         {"src":"../marq3.png"},
-        {"src":"../marq4.png"},
+        {"src":"../marq4.jpg"},
         {"src":"../marq5.png"},
         {"src":"../marq6.png"},
         {"src":"../marq7.png"},
         {"src":"../marq8.png"},
         {"src":"../marq9.png"},
-        {"src":"../marq10.png"},
-        {"src":"../marq1.png"},
-        {"src":"../marq2.png"},
-        {"src":"../marq3.png"},
-        {"src":"../marq4.png"},
-        {"src":"../marq5.png"}
+        {"src":"../marq10.png"}
     ]
 }

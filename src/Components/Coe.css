@@ -1,0 +1,77 @@
+.image {
+  animation: rotate 1s linear infinite;
+}
+.image1{
+  margin-left: 693px;
+  margin-top: -1790px;
+}
+.image2{
+  margin-left: -415px;
+  margin-top: -1630px;
+}
+.image3{
+  margin-left: 368px;
+  margin-top: -1618px;
+}
+.image4{
+  margin-left: -831px;
+  margin-top: -1240px;
+}
+.image5{
+  margin-left: 671px;
+  margin-top: -1270px;
+}
+.image6{
+  margin-left: -1000px;
+  margin-top: -810px;
+}
+.image7{
+  margin-left: 727px;
+  margin-top: -830px;
+}
+.image8{
+  margin-left: -946px;
+  margin-top: -380px;
+}
+.image9{
+  margin-left: 563px;
+  margin-top: -360px;
+}
+.image10{
+  margin-left: -477px;
+  margin-top: -1382px;
+}
+.image11{
+  margin-left: -351px;
+  margin-top: -1180px;
+}
+.image12{
+  margin-left: 246px;
+  margin-top: -1172px;
+}
+.image13{
+  margin-left: -596px;
+  margin-top: -723px;
+}
+.image14{
+  margin-left: 326px;
+  margin-top: -723px;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.coe_title{
+  display: flex;
+  justify-content: center;
+  font-family: gilroyBold;
+  font-size: 50px;
+  padding-top: 120px;
+padding-bottom: 20px;
+  color:#0000A0;
+  line-height: 32px;
+}

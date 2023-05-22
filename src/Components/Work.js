@@ -6,6 +6,10 @@ export default function Work() {
     <>
       <div className="work-container" id="work">
         <h1>Work Model</h1>
+        <div class="section-title">
+      <div class="bar">
+        </div>
+        </div>
         <ul className="point-list">
           <li>
             <BsFillCheckCircleFill size="20px" color="#056EE9" /> &nbsp; We

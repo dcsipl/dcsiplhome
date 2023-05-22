@@ -1,6 +1,8 @@
 
 .about-container{
     padding-top: 110px;
+    background-color:#F7FAFF;
+    padding-bottom: 100px;
 
 }
 .about-container h1{
@@ -12,25 +14,55 @@
 
 }
 
-.about-container p{
+.about-container .p1{
     font-family: gilroyRegular;
     text-align: center;
     margin:50px 100px;
     color: #476788;
-    font-size: 17px;
+    font-size: 18px;
 line-height: 32px;
 letter-spacing: 1px;
 font-weight: 100;
 }
-.card-container {
-    padding: 0px 230px;
+.about-container .p3{
+    font-family: gilroyRegular;
+    text-align: center;
+    margin:0px 100px;
+    margin-bottom: 70px;
+    color: #476788;
+    font-size: 18px;
+line-height: 32px;
+letter-spacing: 1px;
+font-weight: 100;
+}
+.about-container .p2{
+    font-family: gilroyRegular;
+    text-align: center;
+    margin:0px 100px;
+    margin-bottom: 50px;
+    color: #476788;
+    font-size: 18px;
+line-height: 32px;
+letter-spacing: 1px;
+font-weight: 100;
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    padding: 0px 160px;
+    display: flex;
+    justify-content: space-between;
+
 }
 .card-container .cards{
-width: 447px;
-    margin:50px 30px;
+width: 1200px;
+    margin:20px 0px;
+    margin-left: 20px;
     padding: 0px 20px;
+    padding-bottom: 100px;
+    padding-left: 30px;
     border: none;
-    height: 730px;
+    height: 1100px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
 border-radius: 10px;}
 .card-container .cards:hover{
@@ -38,14 +70,18 @@ border-radius: 10px;}
 box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
 
 }
-.card-container .cards ul.navbar-nav li {
+ .card-container .cards ul.nav-navbar li {
     font-size: 16px;
     color: #425466;
     font-family: gilroyRegular;
     line-height: 32px;
-    margin-left: 50px;
-    text-indent: -40px;    
+    text-transform: capitalize;
+    list-style: none;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
   }
+   
+  
   
 .card-container .cards h1 {
     font-family: gilroyRegular;
@@ -59,3 +95,4 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
 }
 
 
+ 

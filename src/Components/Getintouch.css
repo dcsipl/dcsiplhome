@@ -9,23 +9,48 @@
   padding: 20px;
   font-family: gilroyRegular;
   margin: 0px 100px;
+  margin-top: 40px;
 
   }
 
-  .contact-container h1{
+.contact-container{
+position: absolute;
+margin-top: -750px;
+
+
+}
+.bg{
+  position: relative;
+  background-color:#F7FAFF;
+  margin-top: 20px;
+  margin: 100px 200px;
+  margin-left: 465px;
+  padding-top: 60px;
+  padding-right: 20px;
+  
+  height: 650px;
+
+  
+}
+
+ h1{
     display: flex;
     justify-content: center;
     font-family: gilroyBold;
     font-size: 43px;
     color:#0000A0;
-    padding-bottom: 50px;
-    padding-top: 90px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* padding-bottom: 50px; */
+    /* padding-top: 90px; */
+    padding: 10px 0px;
     letter-spacing: 1px;
   }
-  .contact-card h3{
+  .contact-card .co_info{
   color:#FFFFFF;
   font-size: 21px;
   letter-spacing: 0.115em;
+
   }
   
   .contact-card div {
@@ -46,7 +71,6 @@
     display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
   }
   .icons .icon{
     padding: 30px;
@@ -59,44 +83,40 @@
     transform: scale(1.1);
 
   }
-  .contact-container .right,.contact-container .left{
-    background-color:#F7FAFF;
-    padding: 20px;
-  }
+ 
 
   input{
     border: none;
     border-bottom: 2px solid gray;
     background-color: transparent;
+    width: 200px;
   }
-
+  .contact-container .right .form-container {
+    margin-top: 50px;
+  }
+  .contact-container .right .form-container .row{
+    padding:0px 10px;
+  }
   .contact-container .right h3{
+    margin-top: 30px;
 font-size: 23px;
 
   }
   .form-container .row{
-    line-height: 45px;
+    line-height: 21px;
   }
   .form-container button{
     margin:60px 0px;
-    background-color:  #056EE9;;
-    color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px 20px;
     font-family: gilroyRegular; 
+    border: none;
   }
-  .form-container button:hover {
-
-    background: white;
-    color: #056EE9;;
-    border: 2px solid #056EE9;;
-    font-weight: 800;
-
-}
 .form-container label{
   font-family: gilroyRegular;
   color: #056EE9; ;
   font-weight: 800;
+  margin-bottom: 10px;
 }
 
 input::placeholder {

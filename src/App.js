@@ -9,22 +9,24 @@ import Footer from './Components/Footer';
 import Why from './Components/Why';
 import Work from './Components/Work';
 import Life from './Components/Life@dcs';
-import Rolling from './Components/rolling';
+import Coe from './Components/Coe';
+import Industries from './Components/Industries';
 
 function App() {
   return (
     <div>
       <Navbar />
       <Catchy />
-      <Marquee />
       <About />
+      <Coe/>
       <Services />
       <Why/>
+      <Industries/>
+      <Marquee />
       <Life/>
       <Work/>
       <Getintouch />
       <Footer />
-      {/* <Rolling/> */}
 
     </div>
   );

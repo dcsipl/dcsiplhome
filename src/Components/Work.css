@@ -14,7 +14,7 @@
     font-weight: 800;
     font-family: gilroyMedium;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     color:#0000A0;
 
 }
@@ -29,14 +29,18 @@
     font-size: 18px;
     line-height: 40px;
     font-family: gilroyRegular;
-    text-indent: -25px;
+    text-indent: -38px;
     padding: 0px 50px;
     list-style: none;
     letter-spacing: 1px;
     color:#425466;
+    text-transform: capitalize;
     
   }
   
+  .work-container li::first-letter {
+    text-transform: none;
+  }
 
   
   /* .point-list li {

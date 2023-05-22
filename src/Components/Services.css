@@ -1,29 +1,39 @@
-.row h3{
+.row{
+  margin-top: 50px;
+}.row h3{
     font-family: gilroyMedium;
-    font-size: 17px;
+    font-size: 18px;
     letter-spacing: 1px;
 color:#000000;
 font-weight: 800;
 line-height: 40px;
+margin-right: 50px;
+
 }
 
-.row p{
+
+.service-container .row p{
     font-family: gilroyMedium;
-    font-size: 17px;
-    letter-spacing: 0.5px;
 color: #425466;
-line-height: 24px;
 font-weight: 500;
-text-transform: lowercase;
-margin-bottom: 40px;
+margin-top: 15px;
+margin-bottom: 50px;
+margin-right: 50px;
+margin-left: 100px;
 text-align: justify;
+font-size: 16px;
+line-height: 24px;
+text-indent:-28px;
+letter-spacing: 1px;
+
 }
-.row .right{
-padding-left: 200px;
-}
+
 .row .right img{
-  width: 800px;
-  height: 400px;
+ 
+  /* margin: 0px 50px; */
+  /* width: 609; */
+  height: 529px;
+  margin-left: 0px;
 }
 .service-title{
     display: flex;
@@ -31,14 +41,17 @@ padding-left: 200px;
     font-family: gilroyBold;
     font-size: 50px;
     padding-top: 80px;
-padding-bottom: 80px;
+padding-bottom: 25px;
     color:#0000A0;
     line-height: 32px;
 }
 .service-container {
     position: relative;
-    height: 900px;
+    height: 1200px;
     overflow: hidden;
+    margin-top: -70px;
+    padding-bottom: 100px;
+
   }
   
   .slider-item {
@@ -70,7 +83,7 @@ padding-bottom: 80px;
     position: absolute;
     width: 100%;
     display: flex;
-    margin-top: 230px;
+    margin-top: 330px;
     justify-content: space-between;
 
 
@@ -82,6 +95,7 @@ padding-bottom: 80px;
     border: none;
     padding: 10px 20px;
     margin: 0 10px;
+    margin-top: 50px;
     
     cursor: pointer;
     font-size: 1.2em;
@@ -90,4 +104,5 @@ padding-bottom: 80px;
   .slider-controls button:hover {
     background-color: #f1f1f1;
   }
-  
+   
+ 

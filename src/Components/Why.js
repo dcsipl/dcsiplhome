@@ -57,13 +57,16 @@ const Why = () => {
   return (
     <div className="why-container row" id="why">
       <h1>Why Diamatics?</h1>
-
+      <div class="section-title">
+      <div class="bar">
+        </div>
+        </div>
       <div className="description col-lg-6">
         <div>
-          <p><BsFillCheckCircleFill size="20px" color="#056EE9"/> &nbsp; {items.find((item) => item.id === selectedItemId).description1}</p>
-          <p><BsFillCheckCircleFill size="20px" color="#056EE9"/> &nbsp; {items.find((item) => item.id === selectedItemId).description2}</p>
-          <p><BsFillCheckCircleFill size="20px" color="#056EE9"/> &nbsp; {items.find((item) => item.id === selectedItemId).description3}</p>
-          <p><BsFillCheckCircleFill size="20px" color="#056EE9"/> &nbsp; {items.find((item) => item.id === selectedItemId).description4}</p>
+          <p><BsFillCheckCircleFill size="18px" style={{ color:'#056EE9',marginLeft:"-45px",marginRight:"13px" }}/>  {items.find((item) => item.id === selectedItemId).description1}</p>
+          <p><BsFillCheckCircleFill size="18px" style={{ color:'#056EE9',marginLeft:"-45px",marginRight:"13px" }}/>  {items.find((item) => item.id === selectedItemId).description2}</p>
+          <p><BsFillCheckCircleFill size="18px" style={{ color:'#056EE9',marginLeft:"-45px",marginRight:"13px" }}/>  {items.find((item) => item.id === selectedItemId).description3}</p>
+          <p><BsFillCheckCircleFill size="18px" style={{ color:'#056EE9',marginLeft:"-45px",marginRight:"13px" }}/>  {items.find((item) => item.id === selectedItemId).description4}</p>
         </div>
       </div>
    

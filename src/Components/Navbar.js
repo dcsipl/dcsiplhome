@@ -34,7 +34,7 @@ export default function Navbar() {
                 </li>
                 <li className="nav-item">
                   <a href="#services" className="nav-link">
-                    Services
+                   Our Services
                   </a>
                 </li>
                 <li className="nav-item">
@@ -44,7 +44,7 @@ export default function Navbar() {
                 </li>
                 <li className="nav-item">
                   <a href="#life" className="nav-link">
-                    Life@DCS
+                    Life@Diamatics
                   </a>
                 </li>
                 <li className="nav-item">
